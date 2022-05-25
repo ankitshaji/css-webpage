@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,11 +15,15 @@
   <body class="body">
     <nav>
       <img class="logo" src="images/red.jpg" alt="personal-logo" />
-      <ul class="nav-bar">
+     
+      <ul class="nav-bar" id="nav-list">
         <li><a href="#about-me">About me</a></li>
         <li><a href="https://github.com/ankitshaji">Github</a></li>
         <li><a href="pages/contact.html">Contact me</a></li>
       </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
     </nav>
     <div class="hero">
       <div class="hero-info">
@@ -87,5 +91,6 @@
         <li><a href="pages/contact.html">Contact</a></li>
       </ul>
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
