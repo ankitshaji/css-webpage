@@ -1,5 +1,5 @@
 # css_webpage
-personal info webpage\
+Personal info webpage\
 -css\
 -html\
 -js
